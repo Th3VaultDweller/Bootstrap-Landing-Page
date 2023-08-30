@@ -1,240 +1,248 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
-  
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Royal Blood</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royal Blood</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- Bootstrap's Java Script -->
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"></script>
-  </head>
-  <div>
-  <!-- Navbar -->
-  <nav class="navbar navbar-dark bg-black fixed-top">
-    <div class="mx-auto p-1">
+  <!-- Bootstrap's Java Script -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</head>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-black fixed-top">
+  <!-- <div class="mx-auto p-1">
       <img src="static\RBLogoSolid.svg" class="d-flex justify-content-center" alt="logo" width="800" height="50">
-    </div>
-    
-    <!-- Navbar Burger Button -->
-    <div class="container-fluid">
-      <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    </div> -->
 
-      <!-- Offcanvas Menu -->
-      <div class="offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasDarkNavbar"
-        aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> -->
-          <button type="button" class="btn-close btn-close-white rounded-0" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
+  <!-- Navbar Burger Button -->
+  <div class="container-fluid">
+    <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <div class="mx-auto p-2">
-            <img src="static\RBLogoSolid.svg" class="d-flex justify-content-center" alt="logo" width="300" height="50">
+    <!-- Offcanvas Menu -->
+    <div class="offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasDarkNavbar"
+      aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> -->
+        <button type="button" class="btn-close btn-close-white rounded-0" data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+
+        <div class="mx-auto p-2">
+          <img src="static\RBLogoSolid.svg" class="d-flex justify-content-center" alt="logo" width="300" height="50">
+        </div>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav d-flex justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
+              <h2>Home</h2>
+            </a>
+          </li>
+          <li class="nav-link d-flex justify-content-center">
+            <a class="nav-link" href="#">
+              <h2>Store</h2>
+            </a>
+          </li>
+          <li class="nav-link d-flex justify-content-center">
+            <a class="nav-link" href="#">
+              <h2>About Us</h2>
+            </a>
+          </li>
+          <br>
+          <li class="nav-item">
+            <input type="text" class="form-control text-center" placeholder="Subscribe for updates!"
+              aria-label="Username" aria-describedby="basic-addon1">
+          </li>
+          <br>
+          <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/royalblooduk">
+              <img src="/static/social_media/InstagramLogo.svg" width="30" height="30">
+            </a>
+
+            <a href="https://www.facebook.com/RoyalBloodUK">
+              <img src="/static/social_media/FBLogo.svg" width="30" height="30">
+            </a>
+
+            <a href="https://www.twitter.com/royalblooduk">
+              <img src="/static/social_media/TwitterLogo.svg" width="30" height="30">
+            </a>
+
+            <a href="https://www.vk.com/royalblooduk">
+              <img src="/static/social_media/VKLogo.svg" width="30" height="30">
+            </a>
+
+            <a href="https://www.youtube.com/https://youtube.com/@royalblooduk?si=E6cKVjPLTWs8vyX6">
+              <img src="/static/social_media/YouTubeLogo.svg" width="30" height="30">
+            </a>
+
+            <a href="https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=Ft0BK9EDR6O4a8iyWll8Aw">
+              <img src="/static/social_media/SpotifyLogo.svg" width="30" height="30">
+            </a>
           </div>
-        </div>
-
-        <div class="offcanvas-body">
-          <ul class="navbar-nav d-flex justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link d-flex justify-content-center" aria-current="page" href="#">
-                <h2>Home</h2>
-              </a>
-            </li>
-            <li class="nav-link d-flex justify-content-center">
-              <a class="nav-link" href="#">
-                <h2>Store</h2>
-              </a>
-            </li>
-            <li class="nav-link d-flex justify-content-center">
-              <a class="nav-link" href="#">
-                <h2>About Us</h2>
-              </a>
-            </li>
-            <br>
-            <li class="nav-item">
-              <input type="text" class="form-control text-center" placeholder="Subscribe for updates!"
-                aria-label="Username" aria-describedby="basic-addon1">
-            </li>
-            <br>
-            <div class="d-flex justify-content-center">
-              <a href="https://www.instagram.com/royalblooduk">
-                <img src="/static/social_media/InstagramLogo.svg" width="30" height="30">
-              </a>
-
-              <a href="https://www.facebook.com/RoyalBloodUK">
-                <img src="/static/social_media/FBLogo.svg" width="30" height="30">
-              </a>
-
-              <a href="https://www.twitter.com/royalblooduk">
-                <img src="/static/social_media/TwitterLogo.svg" width="30" height="30">
-              </a>
-
-              <a href="https://www.vk.com/royalblooduk">
-                <img src="/static/social_media/VKLogo.svg" width="30" height="30">
-              </a>
-
-              <a href="https://www.youtube.com/https://youtube.com/@royalblooduk?si=E6cKVjPLTWs8vyX6">
-                <img src="/static/social_media/YouTubeLogo.svg" width="30" height="30">
-              </a>
-
-              <a href="https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=Ft0BK9EDR6O4a8iyWll8Aw">
-                <img src="/static/social_media/SpotifyLogo.svg" width="30" height="30">
-              </a>
-            </div>
-          </ul>
-        </div>
+        </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- New Album Splash Screen -->
-  <br>
-  <br>
-  <div class="bg-black">
+<!-- New Album Splash Screen -->
+<!-- <br> -->
+<div class="bg-black">
 
-    <div class="d-flex justify-content-center">
-      <img src="static/BackFromTheWaterBelow_desktopsplash_banner.jpg" class="object-fit-contain " width="1500"
-        height="500">
-    </div>
-
-    <!-- Upcoming Live Concerts -->
-    <h2 class='text-center text-white'>Upcoming Live Concerts</h2>
-    <br>
-    <br>
-    <div class="container w-50">
-
-      <table class="display text-center" style="width:100%">
-        <tbody>
-          <tr>
-            <td>31-09-2023</td>
-            <td>Electric Ballroom</td>
-            <td>London, UK</td>
-            <div class="">
-              <td>
-                <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
-              </td>
-            </div>
-          </tr>
-          <tr>
-            <td>01-09-2023</td>
-            <td>Pryzm</td>
-            <td>Kingston Upon Thames, UK</td>
-            <td>
-              <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
-            </td>
-          </tr>
-          <tr>
-            <td>02-09-2023</td>
-            <td>SWX</td>
-            <td>Bristol, UK</td>
-            <td>
-              <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
-            </td>
-          </tr>
-          <tr>
-            <td>04-09-2023</td>
-            <td>Project House</td>
-            <td>Leeds, UK</td>
-            <td>
-              <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!-- Store -->
-    <br>
-    <br>
-    <h2 class='text-center text-white'>Store</h2>
-    <br>
-    <br>
-
-    <div class="d-flex justify-content-center">
-      <div class="p-1">
-        <img src="/static/merchandise/Speckled-Tiger.webp" width="500" height="500">
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button type="button" class="btn btn-dark btn-lg rounded-0">ORDER NOW</button>
-        </div>
-      </div>
-      <div class="p-1">
-        <img src="/static/merchandise/Speckled-Tiger.webp" width="500" height="500">
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button type="button" class="btn btn-dark btn-lg rounded-0">ORDER NOW</button>
-        </div>
-      </div>
-      <div class="p-1">
-        <img src="/static/merchandise/Speckled-Tiger.webp" width="500" height="500">
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button type="button" class="btn btn-dark btn-lg rounded-0">ORDER NOW</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Photo From Live Concert & Subscribe Field -->
-    <br>
-    <br>
-    <div class="d-flex justify-content-center">
-      <img src="/static/RoyalBloodMembers_2_21x9.jpg" width="1500" height="650">
-    </div>
-
-    <!-- Live Video Loop -->
-    <br>
-    <br>
-    <div class="d-flex justify-content-center">
-      <video src="static/video/Royal Blood - Mountains at Midnight_1080.mp4" autoplay muted></video>
-    </div>
-
-    <!-- Footer -->
-    <br>
-    <br>
-    
-    <div class="d-flex justify-content-center">
-      <img src="static\RBLogoSolid.svg" alt="logo" width="800" height="50">
-    </div>
-    <br>
-    <div class="d-flex justify-content-center">
-      <a href="https://www.instagram.com/royalblooduk">
-        <img src="/static/social_media/InstagramLogo.svg" width="30" height="30">
-      </a>
-
-      <a href="https://www.facebook.com/RoyalBloodUK">
-        <img src="/static/social_media/FBLogo.svg" width="30" height="30">
-      </a>
-
-      <a href="https://www.twitter.com/royalblooduk">
-        <img src="/static/social_media/TwitterLogo.svg" width="30" height="30">
-      </a>
-
-      <a href="https://www.vk.com/royalblooduk">
-        <img src="/static/social_media/VKLogo.svg" width="30" height="30">
-      </a>
-
-      <a href="https://www.youtube.com/https://youtube.com/@royalblooduk?si=E6cKVjPLTWs8vyX6">
-        <img src="/static/social_media/YouTubeLogo.svg" width="30" height="30">
-      </a>
-
-      <a href="https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=Ft0BK9EDR6O4a8iyWll8Aw">
-        <img src="/static/social_media/SpotifyLogo.svg" width="30" height="30">
-      </a>
-    </div>
-
-    <br>
-    <div class='bottom text-center'>
-      <h8 class='text-white'>2023 Lorem Ipsum UK Limited</h8> |
-      <h8 class='text-white'>Privacy Policy</h8> |
-      <h8 class='text-white'>Terms Of Use</h8> |
-      <h8 class='text-white'>Cookies Policy</h8> |
-    </div>
-
+  <div class="d-flex justify-content-center">
+    <img src="static/BackFromTheWaterBelow_desktopsplash_banner.jpg" class="object-fit-contain " width="1500"
+      height="500">
   </div>
 
+  <!-- Upcoming Live Concerts -->
+  <h2 class='text-center text-white'>Upcoming Live Concerts</h2>
+  <br>
+  <br>
+  <div class="container w-50">
 
-  </body>
+    <table class="display text-center" style="width:100%">
+      <tbody>
+        <tr>
+          <td>31-09-2023</td>
+          <td>Electric Ballroom</td>
+          <td>London, UK</td>
+          <div class="">
+            <td>
+              <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <td>01-09-2023</td>
+          <td>Pryzm</td>
+          <td>Kingston Upon Thames, UK</td>
+          <td>
+            <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
+          </td>
+        </tr>
+        <tr>
+          <td>02-09-2023</td>
+          <td>SWX</td>
+          <td>Bristol, UK</td>
+          <td>
+            <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
+          </td>
+        </tr>
+        <tr>
+          <td>04-09-2023</td>
+          <td>Project House</td>
+          <td>Leeds, UK</td>
+          <td>
+            <button type="button" class="btn btn-dark btn-lg rounded-0">SOLD OUT</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Store -->
+  <br>
+  <br>
+  <h2 class='text-center text-white'>Store</h2>
+  <br>
+  <br>
+
+  <div class="d-flex justify-content-center">
+    <div class="p-1">
+      <img src="/static/merchandise/Speckled-Tiger.webp" width="500" height="500">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-dark btn-lg rounded-0">ORDER NOW</button>
+      </div>
+    </div>
+    <div class="p-1">
+      <img src="/static/merchandise/Speckled-Tiger.webp" width="500" height="500">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-dark btn-lg rounded-0">ORDER NOW</button>
+      </div>
+    </div>
+    <div class="p-1">
+      <img src="/static/merchandise/Speckled-Tiger.webp" width="500" height="500">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-dark btn-lg rounded-0">ORDER NOW</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photo From Live Concert & Subscribe Field -->
+  <br>
+  <br>
+  <div class="d-flex justify-content-center">
+    <img src="/static/RoyalBloodMembers_2_21x9.jpg" width="1500" height="650">
+  </div>
+
+  <!-- Live Video Loop -->
+  <br>
+  <br>
+  <div class="d-flex justify-content-center">
+    <video src="static/video/Royal Blood - Mountains at Midnight_1080.mp4" autoplay muted></video>
+  </div>
+
+  <!-- Footer -->
+  <br>
+  <br>
+
+  <div class="d-flex justify-content-center">
+    <img src="static\RBLogoSolid.svg" alt="logo" width="800" height="50">
+  </div>
+  <br>
+  <div class="d-flex justify-content-center">
+    <a href="https://www.instagram.com/royalblooduk">
+      <img src="/static/social_media/InstagramLogo.svg" width="30" height="30">
+    </a>
+
+    <a href="https://www.facebook.com/RoyalBloodUK">
+      <img src="/static/social_media/FBLogo.svg" width="30" height="30">
+    </a>
+
+    <a href="https://www.twitter.com/royalblooduk">
+      <img src="/static/social_media/TwitterLogo.svg" width="30" height="30">
+    </a>
+
+    <a href="https://www.vk.com/royalblooduk">
+      <img src="/static/social_media/VKLogo.svg" width="30" height="30">
+    </a>
+
+    <a href="https://www.youtube.com/https://youtube.com/@royalblooduk?si=E6cKVjPLTWs8vyX6">
+      <img src="/static/social_media/YouTubeLogo.svg" width="30" height="30">
+    </a>
+
+    <a href="https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=Ft0BK9EDR6O4a8iyWll8Aw">
+      <img src="/static/social_media/SpotifyLogo.svg" width="30" height="30">
+    </a>
+  </div>
+
+  <br>
+  <div class='bottom text-center'>
+    <a href="#">
+      <h8 class='text-white'>2023 Lorem Ipsum UK Limited</h8>
+    </a> |
+    <a href="#">
+      <h8 class='text-white'>Privacy Policy</h8>
+    </a> |
+    <a href="#">
+      <h8 class='text-white'>Terms Of Use</h8>
+    </a> |
+    <a href="#">
+      <h8 class='text-white'>Cookies Policy</h8>
+    </a> |
+  </div>
+
+</div>
+
+
+</body>
 
 </html>
